@@ -1,16 +1,30 @@
-# React + Vite
+# 🛍️ Shoppy - Modern E-Commerce Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A fast, responsive, and modern e-commerce storefront built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Dynamic Catalog & Filtering:** Real-time search and category filtering across lifestyle and tech gear.
+- **Cart Management:** Global cart state powered by React Context API with `localStorage` persistence.
+- **Discounts & Free Shipping:** Working coupon system (`WELCOME10`, `SAVE20`) with dynamic free shipping progress bar.
+- **Product Quick View:** Interactive modal for detailed specifications and quantity selection.
+- **User Feedback:** Animated toast notifications for smooth user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Framework:** React 19 + Vite
+- **Styling:** Tailwind CSS (v4)
+- **Icons:** Lucide React
+- **State Management:** React Context API
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/esat183/shoppy-app.git](https://github.com/esat183/shoppy-app.git)
